@@ -130,7 +130,7 @@ if nav == "Pesquisa":
     # Caixa de aviso estilizada (Cinza + Azul)
     st.markdown("""
     <div class="info-box">
-        O sistema buscará os livros, verificará volumes e filtrará automaticamente as informações irrelevantes (Localização, Status, etc).
+        O sistema buscará os livros, verificará volumes e organizará as informações do relatório
         <br><b>O arquivo final conterá apenas os dados prontos para uso.</b>
     </div>
     """, unsafe_allow_html=True)
@@ -199,4 +199,5 @@ elif nav == "Como Funciona":
     4. **Clique em "Gerar Relatório"**.
     """)
     
+
     st.info("💡 O sistema gera um arquivo Excel organizado por Biblioteca e Coleção.")
